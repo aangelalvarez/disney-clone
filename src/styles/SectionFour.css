@@ -1,0 +1,74 @@
+.sectionFourContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.sectionFourContent {
+    margin-top: 5vw;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteBox {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    width: 100%;
+}
+.columnImg {
+    width: 100%;
+}
+
+.devices {
+    width: 100%;
+    margin-top: 30px;
+}
+.huluDisEs {
+    width: 100%;
+}
+
+.devices {
+    width: 100%;
+}
+
+.imageContainer {
+    width: 100%;
+}
+.textAndButtonContainer {
+    width: 100%
+}
+
+@media  screen and (min-width: 1020px) {
+    .sectionFourContent {width: 90vw;}
+}
+
+@media  screen and (max-width: 1020px) {
+    .sectionFourContent {width: 85vw;}
+}
+
+@media screen and (min-width: 800px) {
+    .imageContainer {
+        width: 100%; 
+    }
+    .textAndButtonContainer {
+        width: 100%
+    }
+    .whiteBox {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 580px) {
+    .devices {
+        display: flex;
+    }
+}

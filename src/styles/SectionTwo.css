@@ -1,0 +1,32 @@
+.sectionTwoContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionTwoContent {
+    margin-top: 80px;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.cardImg {
+    border-radius: 4px;
+    width: 45%;
+    margin: 2.5%;
+}
+
+@media  screen and (min-width: 800px) {
+    .cardImg {width: 30%;     margin: 1.5%;}
+    .sectionTwoContent {width: 90vw;}
+}
+

@@ -1,0 +1,51 @@
+.sectionThreeContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.sectionThreeContent {
+    margin-top: 5vw;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+
+}
+.image {
+    width: 100%;
+
+}
+.columns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+@media  screen and (min-width: 1020px) {
+    .sectionThreeContent {width: 90vw;}
+}
+
+@media  screen and (max-width: 1020px) {
+    .sectionThreeContent {width: 85vw;}
+}
+
+@media screen and (min-width: 700px){
+    .text {
+        width: 48%;
+        margin: 1%;
+        margin-top: 10vw;
+    }
+    .image {
+        width: 48%;
+        margin: 1%;
+    }
+    .columns {
+        flex-direction: row;
+    }
+}
